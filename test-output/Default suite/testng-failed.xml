@@ -5,7 +5,7 @@
     <classes>
       <class name="tests.BaseTest">
         <methods>
-          <include name="createContact"/>
+          <include name="createDeal"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>

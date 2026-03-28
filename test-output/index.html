@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\admin\AppData\Local\Temp\testng-eclipse--626504539\testng-customsuite.xml</span>
+                    <span>C:\Users\jmayu\AppData\Local\Temp\testng-eclipse--655769526\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,6 +104,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="tests.BaseTest" class="method navigator-link" hash-for-method="createContact">createContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.BaseTest" class="method navigator-link" hash-for-method="createDeal">createDeal</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -138,6 +143,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="createDeal">
+                  </a> <!-- createDeal -->
+                  <span class="method-name">createDeal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="validateLoginFunctionality">
                   </a> <!-- validateLoginFunctionality -->
                   <span class="method-name">validateLoginFunctionality</span>
@@ -148,7 +160,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\admin\AppData\Local\Temp\testng-eclipse--626504539\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\jmayu\AppData\Local\Temp\testng-eclipse--655769526\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -197,20 +209,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'createContact')
 data.setCell(0, 2, 'tests.BaseTest')
-data.setCell(0, 3, 9193);
+data.setCell(0, 3, 7890);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validateLoginFunctionality')
+data.setCell(1, 1, 'createDeal')
 data.setCell(1, 2, 'tests.BaseTest')
-data.setCell(1, 3, 38);
+data.setCell(1, 3, 4707);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateLoginFunctionality')
+data.setCell(2, 2, 'tests.BaseTest')
+data.setCell(2, 3, 63);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -243,15 +259,19 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">validateLoginFunctionality</span>
-                <span class="method-start">8593 ms</span>
+                <span class="method-start">9315 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">createContact</span>
-                <span class="method-start">8642 ms</span>
+                <span class="method-start">9383 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createDeal</span>
+                <span class="method-start">17275 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">17840 ms</span>
+                <span class="method-start">21984 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
